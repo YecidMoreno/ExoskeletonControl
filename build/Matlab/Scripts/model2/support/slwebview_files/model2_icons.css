@@ -1,0 +1,11 @@
+.model20,
+.model21,
+.model22,
+.model23,
+.model24 { background-image: url('model2_icons.png'); width: 16px; height: 16px; }
+
+.model20 { background-position: -0px; }
+.model21 { background-position: -16px; }
+.model22 { background-position: -32px; }
+.model23 { background-position: -48px; }
+.model24 { background-position: -64px; }

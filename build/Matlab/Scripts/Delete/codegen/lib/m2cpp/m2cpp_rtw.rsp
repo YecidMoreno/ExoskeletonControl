@@ -1,0 +1,3 @@
+m2cpp.obj
+m2cpp_initialize.obj
+m2cpp_terminate.obj

@@ -1,0 +1,27 @@
+{
+ "baseUrl":"support/slwebview_files",
+ "homeHid":1,
+ "initialElement":"",
+ "sections":[
+  {
+   "hid":1,
+   "sid":"model2",
+   "name":"model2",
+   "fullname":"model2",
+   "label":"model2*",
+   "parent":0,
+   "descendants":[
+    2,
+    3
+   ],
+   "hierarchyUrl":"support/slwebview_files/model2_h_1.json",
+   "backingUrl":"support/slwebview_files/model2_m.json"
+  }
+ ],
+ "optViews":[
+ ],
+ "display":{
+  "informer":false
+ },
+ "iconsUrl":"support/slwebview_files/model2_icons.css"
+}
