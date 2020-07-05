@@ -1,0 +1,36 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ (Multiple cpp files)",
+            "type": "shell",
+            "command": "x86_64-w64-mingw32-g++",
+            "args": [ //"-m32",
+                      "-g",     "mainControl.cpp",//"${fileBasename}", 
+                      "-o",     "\"${workspaceFolder}\\build\\${fileBasenameNoExtension}\"",
+                      "-I",     "C:\\DEV\\Requeriments\\SDL2\\include\\SDL2",
+                      "-I",     "C:\\DEV\\Requeriments\\Imagenes",
+                      "-I",     "C:\\DEV\\imgui-docking",
+                      "-I",     "C:\\DEV\\imgui-docking\\examples",
+                      "-I",     "C:\\DEV\\Requeriments\\include",
+                      "-L",     "C:\\DEV\\Requeriments\\SDL2\\lib",
+                      "-L",     "C:\\DEV\\Requeriments\\lib_win64",
+                      "-l",     "SDL2",
+                      "-l",     "SDL2main",
+                      "-l",     "opengl32",
+                      "-l",     "gdi32",
+                      "-l",     "shell32",
+                      "-l",     "shell32",
+                      "-l",     "blas_win64_MT",
+                      "-l",     "lapack_win64_MT"
+                    ], 
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
