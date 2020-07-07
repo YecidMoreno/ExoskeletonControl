@@ -14,3 +14,4 @@ Ki = 35;
 Kd = 3.5;
 
 BR= (Br/Nr) + Nr*Cm;
+disp('P')
